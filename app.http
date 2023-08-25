@@ -1,0 +1,35 @@
+
+GET http://localhost:3000/tasks
+### Scenario 1 Ok
+
+
+
+GET http://localhost:3000/tasks/1
+### API 2 ok
+
+
+POST http://localhost:3000/tasks/
+Content-Type: application/json
+
+{
+ "id": 6,
+ "title": "",
+ "discription": ""
+}
+
+### API 4 
+
+
+PUT http://localhost:3000/tasks/2/
+Content-Type: application/json
+
+
+ "id": 6,
+ "title": "",
+ "discription": ""
+}
+
+
+
+DELETE http://localhost:3000/tasks/2/
+### API 6 Ok
