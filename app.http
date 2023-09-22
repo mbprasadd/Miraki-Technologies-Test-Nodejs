@@ -32,4 +32,4 @@ Content-Type: application/json
 
 
 DELETE http://localhost:3000/tasks/2/
-### API 6 Ok
+### API 6 Ok 
